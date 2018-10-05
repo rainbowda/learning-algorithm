@@ -10,9 +10,9 @@
 2. 最小堆(通常用于构造优先队列)
    
 # 堆节点访问
-- 父节点i的左子节点在位置 {\displaystyle (2i+1)} {\displaystyle (2i+1)};
-- 父节点i的右子节点在位置 {\displaystyle (2i+2)} {\displaystyle (2i+2)};
-- 子节点i的父节点在位置 {\displaystyle floor((i-1)/2)} {\displaystyle floor((i-1)/2)};
+- 父节点i的左子节点在位置 { (2i+1)} { (2i+1)};
+- 父节点i的右子节点在位置 { (2i+2)} { (2i+2)};
+- 子节点i的父节点在位置 { floor((i-1)/2)} { floor((i-1)/2)};
 
 # 堆的操作
 - 最大堆调整（Max Heapify）：将堆的末端子节点作调整，使得子节点永远小于父节点
