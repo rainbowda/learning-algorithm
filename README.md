@@ -7,8 +7,11 @@
 4. [基数排序](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/radixSort)
 5. [桶排序](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/bucketSort)
 
+### 第三部分 数据结构
+
+### 第四部分 高级设计和分析技术
 
 ## 其他
-5. [TopK](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/topK)
+1. [TopK](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/topK)
 
 
