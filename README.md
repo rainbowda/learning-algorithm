@@ -10,6 +10,7 @@
 ### 第三部分 数据结构
 
 ### 第四部分 高级设计和分析技术
+1. [动态规划](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/dynamicProgramming)
 
 ## 其他
 1. [TopK](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/topK)
