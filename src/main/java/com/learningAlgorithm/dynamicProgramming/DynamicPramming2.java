@@ -1,9 +1,5 @@
 package com.learningAlgorithm.dynamicProgramming;
 
-import java.util.Map;
-
-import static com.learningAlgorithm.dynamicProgramming.DynamicPramming1.cutRod;
-
 /**
  * 第二版带备忘的自顶向下
  * 增加备忘功能
