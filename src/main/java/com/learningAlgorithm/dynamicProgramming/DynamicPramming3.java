@@ -8,10 +8,10 @@ public class DynamicPramming3 {
     public static int bottomUpCutRod(int[] worth, int length){
         int[] r = new int[length+1];
 
-        int value = 0;
 
         for (int j = 1; j <= length; j++) {
 
+            int value = 0;
             for(int i = 1; i <= j; i++){
                 int nextValue = worth[i] + r[j-i];
                 value = value > nextValue ? value : nextValue;
