@@ -11,7 +11,7 @@
 
 ### 第四部分 高级设计和分析技术
 1. [动态规划](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/dynamicProgramming)
-2. [贪心算法]()
+2. [贪心算法](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/greedyAlgorithm)
 3. [摊还分析]()
 ## 其他
 1. [TopK](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/topK)
