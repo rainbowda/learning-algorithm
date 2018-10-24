@@ -13,19 +13,7 @@
 
 
 1. [字符串](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/string)
-
-
-### 数组
-1. [寻找最小的k个数]()
-2. [寻找和为定值的两个数]()
-3. [寻找和为定值的多个数]()
-4. [最大连续子数组和]()
-5. [跳台阶问题]()
-6. [奇偶数排序]()
-7. [荷兰国旗]()
-8. [矩阵相乘]()
-9. [完美洗牌算法]()
-
+2. [数组](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/array)
 
 ### 树
 1. [统计出现次数最多的数据]()
