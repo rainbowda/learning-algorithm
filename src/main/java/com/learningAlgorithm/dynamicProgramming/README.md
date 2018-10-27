@@ -1,33 +1,6 @@
 # 动态规划
-
-# 切钢条
-## 递归
-将长度为n的钢条分解为左边开始一段，以及剩余部分继续分解的结果。
-
-## 基本实现
-
-### 带备忘的自顶向下
-
-## 自底向上
-
-
-
-# 原理
-
-## 最优子结构
-
-1. 证明问题最优解的第一个组成部分是做出一个选择，例如，选择钢条第一次切割位置，选择矩阵链的划分位置等。做出这次选择会产生一个或多个待解的子问题。
-2. 对于一个给定问题，在其可能的第一步选择中，你假定已经知道哪种选择才会得到最优解。你现在并不关心这种选择具体是如何得到的，只是假定已经知道了这种选择。
-3. 给定可获得最优解的选择后，你确定这次选择会产生那些子问题，以及如何最好地刻画子问题空间。
-4. 利用“剪切—粘贴”(cut-and-paste)技术证明：作为构成原问题最优解的组成部分，每个子问题的解就是它本身的最优解。证明这一点是利用反证法：假定子问题的解不是其自身的最优解，那么我们可以从原问题的解中“剪切”掉这些非最优解，将最优解“粘贴”进去，从而得到原问题一个更优的解，与这最初的解时原问题最优解的前提假设矛盾。如果原问题的最优解包含多个子问题，通常他们都很相似，我们可以将针对一个子问题的“剪切—粘贴”论证方法稍加修改，用于其他子问题。
-
-
-## 子问题重叠
-如果递归算法反复求解相同的子问题，我们就称最优化问题具有重叠子问题（overlapping subproblems）性质。
-
-### 重构最优解
-从实际考虑，我们通常将每个子问题所做的选择存在一个表中，这样就不必根据代价价值来重构这些信息。
-### 备忘
-我们可以保持自顶向下策略，同时达到与自底向上动态规划方法相似的效率。思路就是对自然但低效的递归算法加入备忘机制。与自底向上方法一样，我们维护一个表记录子问题的解，但仍保持递归算法的控制流程。
-    带备忘的递归算法为每个子问题维护一个表项来保存它的解。每个表项的初值设为一个特殊值，表示尚未填入子问题的解。当递归调用过程中第一次遇到子问题时，计算其解，并存入对应表项。随后每次遇到同一个子问题，只是简单地查表，返回其解(这种方法假定我们预先已经知道所有可能的子问题参数(子问题空间)，并已在表项和子问题间建立起对应关系。另一个更通用的备忘方法是使用散列技术，以子问题参数为关键字。)
+1. [最大连续乘积子数组](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/dynamicProgramming/maxProductSubString)
+2. [字符串编辑距离](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/dynamicProgramming/editDistance)
+3. [格子取数问题](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/dynamicProgramming/getNumber)
+4. [交替字符串](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/dynamicProgramming/isInterLeave)
 

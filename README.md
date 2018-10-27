@@ -15,14 +15,9 @@
 1. [字符串](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/string)
 2. [数组](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/array)
 3. [树](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/tree)
-4. [树](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/query)
+4. [查找](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/query)
+4. [动态规划](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/dynamicProgramming)
 
-
-
-### 动态规划
-1. [最大连续乘积子数组]()
-2. [字符串编辑距离]()
-3. [格子取数问题]()
 4. [交替字符串]()
 
 ### 海量数据处理
