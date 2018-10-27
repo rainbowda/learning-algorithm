@@ -14,17 +14,10 @@
 
 1. [字符串](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/string)
 2. [数组](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/array)
+3. [树](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/tree)
+4. [树](https://github.com/rainbowda/learning-algorithm/tree/master/src/main/java/com/learningAlgorithm/query)
 
-### 树
-1. [统计出现次数最多的数据]()
-2. [上亿行数据的快速查询]()
-3. [最近公共祖先问题]()
 
-### 查找
-1. [有序数组的查找]()
-2. [行列递增矩阵的查找]()
-3. [出现次数超过一半的数]()
-4. [字符串的查找]()
 
 ### 动态规划
 1. [最大连续乘积子数组]()
