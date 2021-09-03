@@ -1,4 +1,4 @@
-package com.learningAlgorithm.leetCode._1twoSum;
+package com.learningAlgorithm.leetcode._1twoSum;
 
 import java.util.Arrays;
 
