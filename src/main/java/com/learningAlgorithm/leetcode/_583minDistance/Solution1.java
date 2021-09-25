@@ -1,5 +1,8 @@
 package com.learningAlgorithm.leetcode._583minDistance;
 
+/**
+ * 最长公共子序列
+ */
 class Solution1 {
     public int minDistance(String word1, String word2) {
         int m = word1.length(), n = word2.length();
