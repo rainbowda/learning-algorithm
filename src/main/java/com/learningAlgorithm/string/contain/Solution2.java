@@ -25,10 +25,5 @@ public class Solution2 {
         //排序字符串
     }
 
-    public static void main(String[] args) {
-        System.out.println(Solution1.stringContain("ABCD", "BCD"));
-        System.out.println(Solution1.stringContain("ABCD", "BCE"));
-        System.out.println(Solution1.stringContain("ABCD", "AA"));
-    }
 
 }
